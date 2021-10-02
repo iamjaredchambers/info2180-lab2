@@ -1,0 +1,92 @@
+.container{
+    display: grid;
+    grid-template-rows: repeat (2, 4fr);
+    grid-template-columns: 1fr, 1fr, 1fr;
+    gap: 1em;
+    height: 23em;
+    
+}
+header{
+    display:flexbox;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    left: 0;
+    grid-column: 1/ span 2;
+    padding : .84em;
+    justify-content: center;
+    background-color:   #63B3ED  ;
+    color: #FFFFFF;
+}
+
+aside{
+  width: 30%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 15px;
+  float:left;
+  background-color: lightgray;
+}
+
+h1{
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-size: 32px;
+    color: #48bb78;
+}
+
+article{
+     font-size: 18px;
+     color: #2D3748;
+     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
+ }
+
+img[alt= "birce3"]
+{
+    
+    display: block;
+    width : 60%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 70%;
+}
+
+
+
+img[alt= "The Word of God"]
+{
+    float: left;
+    margin: 5px;
+}
+
+img[alt = "Hacking"]
+{
+    float: left;
+    margin: 5px;
+}
+
+.about{
+    background-color: #E2E8F0;
+    padding: .80em;
+
+}
+
+a
+{
+    color: #4299E1;
+}
+
+footer
+{
+    background-color: #2C5282;
+    color: #FFFFFF;
+}
+
+
+
+ 
